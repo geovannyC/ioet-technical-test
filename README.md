@@ -5,22 +5,35 @@
 In the project directory, run this scripts for start the App :
 
 1. Clone the project:
-`CLONE`
-...git clone https://github.com/geovannyC/ioet-technical-test.git
+   `CLONE`
+
+```terminal
+git clone https://github.com/geovannyC/ioet-technical-test.git
+```
 
 2. Install dependences:
-`INSTALL`
+   `INSTALL`
+
+```terminal
 ...npm install
+```
 
 3. Launch the project:
-`START`
+   `START`
+
+```terminal
 ...npm start
+```
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 3. Launcher the test runner:
-`TEST`
+   `TEST`
+
+```terminal
 ...npm test
+```
 
 <details><summary>Architecture</summary>
 
@@ -96,4 +109,3 @@ IOET
 	<h2 >Test</h2>
 		<img src="./evidence/test.png" width="800" height="400" alt="Click to see the source">
 </div>
-
