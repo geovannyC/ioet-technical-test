@@ -23,8 +23,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 ...npm test
 
 <details><summary>Architecture</summary>
-```
 
+```
 IOET
 ├── README.md
 ├── package-lock.json
@@ -60,7 +60,9 @@ IOET
      ├── file3.txt
      ├── file4.txt
      └── file5.txt
+```
 
+</details>
      
 <div align="center">
 	<h1 >Intewview App</h1>
