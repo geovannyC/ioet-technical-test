@@ -1,70 +1,97 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, run this scripts for start the App :
 
-### `npm start`
+1. Clone the project:
+`CLONE`
+...git clone https://github.com/geovannyC/ioet-technical-test.git
 
+2. Install dependences:
+`INSTALL`
+...npm install
+
+3. Launch the project:
+`START`
+...npm start
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. Launcher the test runner:
+`TEST`
+...npm test
 
-### `npm test`
+<details><summary>Architecture</summary>
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+IOET
+├── README.md
+├── package-lock.json
+├── package.json
+├── src
+│    ├── addons
+│    │   └── file.txt
+│    │   └── upload.png
+│    ├── components
+│    │      ├── content-card.js
+│    │      │   ├── contentCard.jsx
+│    │      │   ├── customSelect.jsx
+│    │      │   ├── data-time.js
+│    │      │   ├── modules.js
+│    │      │   └── style.css
+│    │      └── home.js
+│    │          ├── home.jsx
+│    │          └── home.css
+│    ├── context
+│    │      ├── context.js
+│    │      ├── data-reducer.js
+│    │      ├── GolbalState.js
+│    │      └── identifiers.js
+│    ├── test
+│    │       ├── App.test.js
+│    │       └── readfile.js
+│    ├── index.css
+│    └── index.js
+└── example-files
+     ├── file.txt
+     ├── file1.txt
+     ├── file2.txt
+     ├── file3.txt
+     ├── file4.txt
+     └── file5.txt
 
-### `npm run build`
+     
+<div align="center">
+	<h1 >Intewview App</h1>
+		<img src="./evidence/image1.png" width="800" height="400" alt="Click to see the source">
+</div>
+<div align="center">
+	<h2 >Selector Component</h2>
+		<img src="./evidence/image2.png" width="800" height="400" alt="Click to see the source">
+</div>
+<div align="center">
+	<h2 >Data Preview</h2>
+		<img src="./evidence/image3.png" width="800" height="400" alt="Click to see the source">
+</div>
+<div align="center">
+	<h2 >Data Saved</h2>
+		<img src="./evidence/image4.png" width="800" height="400" alt="Click to see the source">
+</div>
+<div align="center">
+	<h2 >File Selector Component</h2>
+		<img src="./evidence/image5.png" width="800" height="400" alt="Click to see the source">
+</div>
+<div align="center">
+	<h2 >Auto Generator Data Preview</h2>
+		<img src="./evidence/image6.png" width="800" height="400" alt="Click to see the source">
+</div>
+<div align="center">
+	<h2 >Data Saved from .txt file</h2>
+		<img src="./evidence/image7.png" width="800" height="400" alt="Click to see the source">
+</div>
+<div align="center">
+	<h2 >Test</h2>
+		<img src="./evidence/test.png" width="800" height="400" alt="Click to see the source">
+</div>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
